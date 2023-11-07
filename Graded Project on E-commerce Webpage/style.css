@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main-container{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.header{
+    height: 12%;
+    width: 100%;
+    background-color: #33312c;
+    display: flex;
+}
+.welcome{
+    color: #f7f5e9;
+    margin-top: 23px;
+    font-size: larger;
+    
+}
+.header-options span{
+    margin-inline: 10px;
+}
+.header-options{
+    color: #f7f5e9;
+    margin-top: 23px;
+    margin-left: auto;
+   
+}
+.sub-header{
+    height: 12%;
+    width: 100%;
+    background-color: #f5ce0c;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-heading-content{
+    display: flex;
+}
+.sub-heading-content p {
+    font-size: 10px;
+    text-align: right;
+}
+.text-box input{
+    margin-left: 20px;
+    height: 40px;
+    width: 500px;
+    border: 3px solid black;
+}
+.sub-heading-content button{
+    background-color: #575650;
+    color: beige;
+    width: 90px;
+}
+.sub-heading-content>.phoneNumber{
+    font-size: 15px;
+    margin: auto;
+    margin-left: 15px;
+}
+
+.menu{
+    height: 12%;
+    width: 100%;
+    background-color: #f7f5e9;
+}
+
+.menuLabel{
+    display: flex;
+    /* justify-content:left; */
+
+}
+.menuTitles{
+    justify-content: left;
+    /* align-items: center; */
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.banner{
+    height: 100%;
+    width: 100%;
+    background-color: palevioletred;
+    display: flex;
+}
+
+.banner>.bannerImage img{
+    width: 115%;
+    height: 100%;
+}
+.promises{
+    height: 30%;
+    width: 100%;
+    background-color: white;
+   
+}
+.main-promises{
+    display: flex; 
+    height: 100%;
+    
+}
+.row-main{
+    display: flex;
+    width: 100%;
+    background-color: gainsboro;
+    
+}
+.row1{
+    height: 110px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 60px;
+    border: 1px solid black;
+    margin-inline: 30px;
+    font-size: 25px;
+}
+.small-text{
+    font-size: small;
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gender-wise{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+.gender-wiseMain{
+    display: flex;
+    height: 90%;
+    width: 65%;
+    
+}
+.genderWise{
+    width: 50%;
+    height: 68%;
+    margin-top: 2%;
+    margin-inline: 2%;
+    margin-left: 2.5%;
+    border: 1px solid black;
+    font-size: 100px;
+    
+}
+.items-card{
+    height: 100%;
+    width: 100%;
+}
+.featuredProductsMain{
+    display: flexbox;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.featuredProducts{
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.productsFeatured{
+    display: flexbox;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.productRow1{
+    display: flex;
+    width: 100%;
+    height: 60%;
+     
+}
+.productRow2{
+    display: flex;
+    width: 100%;
+    height: 60%;  
+}
+.productRow3{
+    display: flex;
+    width: 100%;
+    height: 60%;  
+}
+.productItems{
+    /* border: 1px solid black; */
+    background-color: #f5ce0c;
+    width: 100%;
+    height: 100%;
+    margin-inline: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;    
+}
+.productItems img {
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
